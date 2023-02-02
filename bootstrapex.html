@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!</title>
+    <link rel="shortcut icon" href="LogoMakr-6TUeUq.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        ::selection {
+            color: white;
+            background-color: orange;
+        }
+
+        footer ::selection{
+            color: orange;
+            background-color: white;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="bg-info text-warning">
+    <nav class="navbar navbar-expand-md navbar-dark bg-warning py-0 sticky-top">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <a href="#"><img src="LogoMakr-5QmhvF.png" alt="ab"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-5" id="navbarSupportedContent">
+                <form class="d-flex col-4 me-auto">
+                    <input class="form-control me-2" type="search" placeholder="Search for products, brands and more..."
+                        aria-label="Search for products, brands and more...">
+                    <button class="btn btn-outline-light " type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav mb-2 mt-1 mb-sm-0">
+                    <li class="nav-item">
+                        <button class="btn btn-primary" type="button">Login</button>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link active">Become a member</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Notification prferences</a></li>
+                            <li><a class="dropdown-item" href="#">24/7 Customer care</a></li>
+                            <li><a class="dropdown-item" href="#">Advertise</a></li>
+                            <li><a class="dropdown-item" href="#">Download App</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active" href="#">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand navbar-dark bg-white">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item mx-3">
+                    <a href="#" class="text-decoration-none p-1 text-warning">Top Offers</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a href="#" class="text-decoration-none p-1 text-warning">Grocery</a>
+                </li>
+                <li class="nav-item mx-3 dropdown">
+                    <a href="#" class="text-decoration-none p-1 text-warning dropdown-toggle" id="elect-menu"
+                        data-bs-toggle="dropdown">Electronics</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="elect-menu">
+                        <li class="dropdown-header text-dark"><b>Tv, Audio & Cameras</b></li>
+                        <li><a class="dropdown-item" href="#">Televisions</a></li>
+                        <li><a class="dropdown-item" href="#">Headphones</a></li>
+                        <li><a class="dropdown-item" href="#">Speakers</a></li>
+                        <li><a class="dropdown-item" href="#">Cameras</a></li>
+                        <li><a class="dropdown-item" href="#">Camera Accessories</a></li>
+                        <li><a class="dropdown-item" href="#">Home Audio and Theater</a></li>
+                        <li><a class="dropdown-item" href="#">Gaming Consols</a></li>
+                        <li class="dropdown-divider"></li>
+                        <li class="dropdown-header text-dark"><b>Appliances</b></li>
+                        <li><a class="dropdown-item" href="#">Air Conditioners</a></li>
+                        <li><a class="dropdown-item" href="#">Refrigerators</a></li>
+                        <li><a class="dropdown-item" href="#">Washing Machines</a></li>
+                        <li><a class="dropdown-item" href="#">Kitchen Aplliances</a></li>
+                        <li class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Others Electronics</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item mx-3">
+                    <a href="#" class="text-decoration-none p-1 text-warning">Mobiles</a>
+                </li>
+                <li class="nav-item mx-3 dropdown">
+                    <a href="#" class="text-decoration-none p-1 text-warning dropdown-toggle" id="cloth-menu"
+                        data-bs-toggle="dropdown">Clothing</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="cloth-menu">
+                        <li><a class="dropdown-item" href="#">Men's Top Wear</a></li>
+                        <li><a class="dropdown-item" href="#">Men's Bottom Wear</a></li>
+                        <li><a class="dropdown-item" href="#">Women Ethnic</a></li>
+                        <li><a class="dropdown-item" href="#">Women Western</a></li>
+                        <li><a class="dropdown-item" href="#">Kid's Wear</a></li>
+                        <li><a class="dropdown-item" href="#">Essentials</a></li>
+                        <li><a class="dropdown-item" href="#">Fashion Accessories</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item mx-3">
+                    <a href="#" class="text-decoration-none p-1 text-warning">Baby Products</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a href="#" class="text-decoration-none p-1 text-warning">Books</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid mt-3">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.reliancedigital.in/medias/Winter-Sale-Carousel-Banner-2022.jpg?context=bWFzdGVyfGltYWdlc3w3ODA1OXxpbWFnZS9qcGVnfGltYWdlcy9oOGMvaDU3Lzk5MTgzMzY0MzQyMDYuanBnfDkxOGNjMWJiMjExYWUzYTQ0ODMzMTk5MjQ0YzY0YmVhNTE5ZjQxZTZjNzc4ZTRhNDhjYjc3N2I3NmZjNmM2ZDI"
+                        class="d-block w-100" alt="1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.reliancedigital.in/medias/kitchen-Fest-Carousel-Banner-14-11-2022.jpg?context=bWFzdGVyfGltYWdlc3wxMzc4NjN8aW1hZ2UvanBlZ3xpbWFnZXMvaDMwL2gzOC85OTE5ODgyNjI1MDU0LmpwZ3wxN2E1ZjVmYjgyMjAwOWNlNjM4Nzk2ZDU2NWI4NTVlNDM2NTNkYmEwOGJiOTYxNTdhMjBjYTZjYmFlNDRiZjAx"
+                        class="d-block w-100" alt="2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.reliancedigital.in/medias/TV-Carousel-Banner-22-11-2022.jpg?context=bWFzdGVyfGltYWdlc3wxMDgxMTN8aW1hZ2UvanBlZ3xpbWFnZXMvaDllL2hlMC85OTIzMjUwNDU0NTU4LmpwZ3w3MTMyZGZjYTRmMWYzODhiMTQwZDNlMzcwZjI1NjJjOTM3NTdkY2Y3MmEwYTA0ZmY4MjcwYTczYTNhODE2OTg1"
+                        class="d-block w-100" alt="3">
+                </div>
+            </div>
+            <button class="carousel-control-prev btn btn-warning" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev" style="height: 70px; width:3%;margin-top: 5%;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next btn btn-warning" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next" style="height: 70px; width:3%;margin-top: 5%;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container-fluid mt-3 bg-white">
+        <div class="row">
+            <div class="row font-monospace fw-bold">
+                <span style="font-size: 25px;">BEST OFFERS ON FASHION</span>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"> <img
+                            src="https://m.media-amazon.com/images/G/31/img22/Fashion/Flip/AFpage/Redesign/SBC/Kids/SBC-Kids_03._CB623869110_.gif"
+                            alt="" width="100%">
+                    </a>
+                    <p class="text-center">Up to 60% off</p>
+                </div>
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"><img
+                            src="https://m.media-amazon.com/images/G/31/img22/Fashion/SS22/AFpage/Rec/SBC/Exploremore/english/4-SBC-Kids-Fashion_04._CB626340508_.jpg"
+                            alt="" width="100%"></a>
+                    <p class="text-center">Up to 60% off</p>
+                </div>
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"><img
+                            src="https://m.media-amazon.com/images/G/31/img22/Fashion/Flip/AFpage/Redesign/SBC/Kids/SBC-Kids_06._CB623869110_.gif"
+                            alt="" width="100%"></a>
+                    <p class="text-center">Up to 60% off</p>
+                </div>
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"><img
+                            src="https://m.media-amazon.com/images/G/31/img22/Fashion/Flip/AFpage/Redesign/SBC/Kids/SBC-Kids_01_._CB621783927_.jpg"
+                            alt="" width="100%"></a>
+                    <p class="text-center">Up to 30% off</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="row font-monospace fw-bold">
+                <span style="font-size: 25px;">SHOP FOR YOUR BABY BY AGE</span>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"> <img
+                            src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/0-6_months._SY116_CB667649399_.jpg"
+                            alt="" width="100%">
+                    </a>
+                    <p class="text-center">0-6 months</p>
+                </div>
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"><img
+                            src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/6-12_months._SY116_CB667649399_.jpg"
+                            alt="" width="100%"></a>
+                    <p class="text-center">6-12 months</p>
+                </div>
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"><img
+                            src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/12-18_months._SY116_CB667649399_.jpg"
+                            alt="" width="100%"></a>
+                    <p class="text-center">12-18 months</p>
+                </div>
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"><img
+                            src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/Schoolfromhome/PCQC/18-24_months._SY116_CB667649399_.jpg"
+                            alt="" width="100%"></a>
+                    <p class="text-center">18-24 months</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="row font-monospace fw-bold">
+                <span style="font-size: 25px;">GREAT DEALS ON ELECTRONICS</span>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"><img
+                            src="https://www.reliancedigital.in/medias/Black-Friday-Small-Banner-Samsung-M13-5G.jpg?context=bWFzdGVyfGltYWdlc3w0NjI5NnxpbWFnZS9qcGVnfGltYWdlcy9oZDkvaDZmLzk5MjQ2MjM1MzIwNjIuanBnfDU0MWE2NTYwZWRiNzEzMzkzODIwY2Q5ZjZlNTMzN2U2ODRiMzA0ODQ0YjRjYjkwY2RlYTliY2E3MWJjNmFmZDM"
+                            alt="" width="100%"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"><img
+                            src="https://www.reliancedigital.in/medias/Black-Friday-Small-Banner-HISENSE-55-inch-UHD-SMART-LED-TV.jpg?context=bWFzdGVyfGltYWdlc3w1NDcxM3xpbWFnZS9qcGVnfGltYWdlcy9oMGIvaGFlLzk5MjQ2MjM1OTc1OTguanBnfDM1M2E1NmZkZjQzYjlhYjY2YTY3ODEyNGY0MzZhYzJmZjAyYjRhYjA5MjgzOTZiYmE5ZWMyZTUwM2E0MjA1MTE"
+                            alt="" width="100%"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"><img
+                            src="https://www.reliancedigital.in/medias/Black-Friday-Small-Banner-Macbook-Air.jpg?context=bWFzdGVyfGltYWdlc3w0MjM1N3xpbWFnZS9qcGVnfGltYWdlcy9oZGQvaDIxLzk5MjQ2MjM2NjMxMzQuanBnfDg0Y2RlZDljYTgxNTU2MWQxZDJiNWYyMDE3NDk1ZGFiNzVhZjI0MzUxNGMzNWZjMGY1MDk3YzAzYzU0MTZiZGE"
+                            alt="" width="100%"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"><img
+                            src="https://www.reliancedigital.in/medias/Black-Friday-Small-Banner-Noise-Bluetooth-neckband.jpg?context=bWFzdGVyfGltYWdlc3wzNjk4MnxpbWFnZS9qcGVnfGltYWdlcy9oYjIvaDZhLzk5MjQ2MjM3Mjg2NzAuanBnfDUzOTI3YzA4MzU3NjUzNWFmZGZiM2Y0ZTcwYTIzODEwNDQ4YWM0MDRlOTUyYmRjZTI1Y2VlNzRhYmYwM2U0Nzg"
+                            alt="" width="100%"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"><img
+                            src="https://www.reliancedigital.in/medias/Black-Friday-Small-Banner-Printers.jpg?context=bWFzdGVyfGltYWdlc3w0MjA2OXxpbWFnZS9qcGVnfGltYWdlcy9oOTUvaGIzLzk5MjQ2MjM3OTQyMDYuanBnfGVhMDIyNmIwNjY0MzY4MzJlZDEwNTA1NmY1NzkyNWY3MjY1Y2Y2ZmU0OTdhMWM1MGYxYzYyODg1ZWY5NGM5Yzg"
+                            alt="" width="100%"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"><img
+                            src="https://www.reliancedigital.in/medias/Black-Friday-Small-Banner-Hisense-46-Litre-Refrigerator.jpg?context=bWFzdGVyfGltYWdlc3wzOTU3MnxpbWFnZS9qcGVnfGltYWdlcy9oMDQvaDI3Lzk5MjQ2MjM4NTk3NDIuanBnfDU2OGRiNWQxYmU5MzFkODJlZTNlYTlkOTExMTFmYjAwNTZiNGFjMWJjNDY5ZmE1NWFkZDI2YjExNTZjNTU4YmU"
+                            alt="" width="100%"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"><img
+                            src="https://www.reliancedigital.in/medias/Black-Friday-Small-Banner-Noise-Smartwatch.jpg?context=bWFzdGVyfGltYWdlc3w0MzAwNXxpbWFnZS9qcGVnfGltYWdlcy9oNTIvaDNjLzk5MjQ2MjM5OTA4MTQuanBnfGYyZjFiMDRkNzk0YzIxMjlkZDlkNDExNGJlZThiZDI3ZGQ5ZmE0YzNkMzY5MzBmNjQ4Njk5ZDc4MDk4NDkwNTQ"
+                            alt="" width="100%"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 p-4">
+                    <a href="#"><img
+                            src="https://www.reliancedigital.in/medias/Black-Friday-Small-Banner-Candes-Ceiling-Fan.jpg?context=bWFzdGVyfGltYWdlc3w0MDg0MXxpbWFnZS9qcGVnfGltYWdlcy9oMjQvaGFmLzk5MjQ2MjM5MjUyNzguanBnfGRhNDE3M2JmZGQyZDkzMTJlZTU5NzZkNDVhZWEzYWZmMmJlMmRhZWMwNmIwODUzNjA1YjhlZDY0NDlhYzk2MmY"
+                            alt="" width="100%"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-3 pb-3 bg-white">
+        <div class="row font-monospace">
+            <span style="font-size: 25px;">BEST SELLING AUDIO ACCESSORIES |<a href="#"
+                    class="small text-decoration-none">View all</a></span>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="px-md-3 px-3 pt-3">
+                    <img src="https://www.reliancedigital.in/medias/Best-Selling-Audio-Accessories-Producst-Carousel-24-11-2022.jpg?context=bWFzdGVyfGltYWdlc3w1MDM1OXxpbWFnZS9qcGVnfGltYWdlcy9oMTcvaDYzLzk5MjQ0MTY3MDA0NDYuanBnfDQxZmJlYmRjNzc4NGM0ZWY4ZGJjYzdkNjI5M2I4Y2M4NWVhZmNjZjhiODIzYTg3OWRkMDY1ZGEyZWI3ZjgxNjc"
+                        alt="1" width="100%">
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active row d-flex" data-bs-interval="100000">
+                            <div class="col-3">
+                                <img src="https://www.reliancedigital.in/medias/boAt-Airdopes148-TrueWireless-492579512-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxODQxNHxpbWFnZS9qcGVnfGltYWdlcy9oODMvaDIwLzk4MTY0MDE1MTA0MzAuanBnfDA2YzYxZGIxZmViZGE4MmY4ZTI0MTI0MmNhMDY1YzYzYTI1NjQzZjY4YWMyY2ZkNjNhYWYzZTUwNTE0NmE1Yzk"
+                                    alt="" width="100%">
+                                <div>
+                                    <a class="small text-decoration-none">BOaT aIRdopes 148 True wireless aIRdopes,
+                                        active black</a>
+                                    <img src="pricetag-1.png" alt="" width="120%">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <img src="https://www.reliancedigital.in/medias/OnePlus-Bullets-Z2-Wireless-Earphone-492796790-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w4MTk1fGltYWdlL2pwZWd8aW1hZ2VzL2hjNi9oMDkvOTgzODE4MDA0MDczNC5qcGd8NWRkMjEyZjQxMTBkYzliZmY1ZTA0NTIwMmQ3MWMxZjgyMDE3ZjdiMjVmMmFjNGY1OTg4NWNjNDU0NTY0MzdlOA"
+                                    alt="" width="100%">
+                                <div>
+                                    <a class="small text-decoration-none">BOaT aIRdopes 148 True wireless aIRdopes,
+                                        active black</a>
+                                    <img src="pricetag-1.png" alt="" width="120%">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <img src="https://www.reliancedigital.in/medias/Reconnect-BE01802-Headphone-Earphone-492796670-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNzE3NnxpbWFnZS9qcGVnfGltYWdlcy9oZGUvaDQ1Lzk4OTU5MzAxNjczMjYuanBnfDhhMzU0OGY2YWUxYjAxY2Q5NzNkZjVkZWE1NjY2ZjY2ZWRlZmU0ZGY4NjE1NDliYTQ2OGI2MTIwODYxMmVlOWE"
+                                    alt="" width="100%">
+                                <div>
+                                    <a class="small text-decoration-none">BOaT aIRdopes 148 True wireless aIRdopes,
+                                        active black</a>
+                                    <img src="pricetag-1.png" alt="" width="120%">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <img src="https://www.reliancedigital.in/medias/boAt-Stone-Grenade-Speaker-491893336-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0OTYxM3xpbWFnZS9wbmd8aW1hZ2VzL2hhOC9oMjkvOTc3NTI3NjI2MTQwNi5wbmd8OGU2ZDEwNGRkNjBmNWJiYWNlMGFjNDkxYjQ4Y2Q2YmQ5ODkxOWZjNmE2NjhlMzAyNzA0YWU1MDJmZDBiOWFmOA"
+                                    alt="" width="100%">
+                                <div>
+                                    <a class="small text-decoration-none">BOaT aIRdopes 148 True wireless aIRdopes,
+                                        active black</a>
+                                    <img src="pricetag-1.png" alt="" width="120%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev btn btn-warning opacity-50" type="button"
+                        data-bs-target="#carouselExampleDark" data-bs-slide="prev"
+                        style="height: 70px; width:5%; margin-left: -2%;margin-top: 15%;">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next btn btn-warning opacity-50" type="button"
+                        data-bs-target="#carouselExampleDark" data-bs-slide="next"
+                        style="height: 70px; width:5%; margin-left: -2%;margin-top: 15%;">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-3 pb-3 bg-white">
+        <div class="row-cols-1 font-monospace">
+            <span style="font-size: 25px;">UP TO 70% OFF ON EVERYDAY APPLIANCES |<a href="#"
+                    class="small text-decoration-none">View all</a></span>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active row d-flex" data-bs-interval="100000">
+                            <div class="col-3">
+                                <img src="https://www.reliancedigital.in/medias/Lifelong-LLEK15-Electric-Kettle-492910947-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w5OTM4fGltYWdlL2pwZWd8aW1hZ2VzL2hhYi9oMGMvOTg5NzI5MzI1MDU5MC5qcGd8NTZhNDI3MjNjMjRiNDQ4NDRmZDM4MjZmN2EwYjE4NWJlYjExZjRiZDU4MWQwODNjZjQ1MWU2ODRhNzY1ODFiZA"
+                                    alt="" width="100%">
+                                <div>
+                                    <a class="small text-decoration-none">BOaT aIRdopes 148 True wireless aIRdopes,
+                                        active black</a>
+                                    <img src="pricetag-1.png" alt="" width="120%">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <img src="https://www.reliancedigital.in/medias/Greenchef-Handy-Chopper-Mini-Chopper-Slicers-493620561-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzODQ1MXxpbWFnZS9qcGVnfGltYWdlcy9oYzYvaDg5Lzk4OTQ3MjkyODU2NjIuanBnfDE5NDIxNDgyZDI1MmJjMWY4ZDlkZmU0NjM5YmExOWY2YWIyYTg0YzBiNmNlYjJkOTYwMTYxZTlmM2FiOTZjMWE"
+                                    alt="" width="100%">
+                                <div>
+                                    <a class="small text-decoration-none">BOaT aIRdopes 148 True wireless aIRdopes,
+                                        active black</a>
+                                    <img src="pricetag-1.png" alt="" width="120%">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <img src="https://www.reliancedigital.in/medias/BPL-BBTD001GK-Shaver-and-Trimmers-491903184-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0Mjc2M3xpbWFnZS9qcGVnfGltYWdlcy9oZGEvaDUwLzk2MjExMzQwMTY1NDIuanBnfDU4YWM2ZDBiZDQwNjM5ZjEwMzQ0ZjEyMTU0OWZmM2MzOWUzZDVlZmI0NDUwYTU1YTdlYzIxMzRjYmRmMmQwOGE"
+                                    alt="" width="100%">
+                                <div>
+                                    <a class="small text-decoration-none">BOaT aIRdopes 148 True wireless aIRdopes,
+                                        active black</a>
+                                    <img src="pricetag-1.png" alt="" width="120%">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <img src="https://www.reliancedigital.in/medias/BPL-BFCB-1205IV-Ceiling-Fan-491902868-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxODUwM3xpbWFnZS9qcGVnfGltYWdlcy9oMDQvaGJhLzk2MjMxNzY3NzM2NjIuanBnfDBlODBhZDFmOThlZDMwODI0ZTNjZWJhNjY3Y2RiMTBiYTE1YTFkOWMxNDhlMzZkMGQ1ZjFmZDYyOGM1M2U2NzI"
+                                    alt="" width="100%">
+                                <div>
+                                    <a class="small text-decoration-none">BOaT aIRdopes 148 True wireless aIRdopes,
+                                        active black</a>
+                                    <img src="pricetag-1.png" alt="" width="120%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev btn btn-warning opacity-50" type="button"
+                        data-bs-target="#carouselExampleDark" data-bs-slide="prev"
+                        style="height: 70px; width:5%; margin-left: -2%;margin-top: 15%;">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next btn btn-warning opacity-50" type="button"
+                        data-bs-target="#carouselExampleDark" data-bs-slide="next"
+                        style="height: 70px; width:5%; margin-left: -2%;margin-top: 15%;">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="px-md-3 px-3 pt-3">
+                    <img src="https://www.reliancedigital.in/medias/Best-Deals-in-Everyday-Appliances-Producst-Carousel-24-11-2022.jpg?context=bWFzdGVyfGltYWdlc3w1ODgxOHxpbWFnZS9qcGVnfGltYWdlcy9oM2YvaGRmLzk5MjQ0MTcwOTM2NjIuanBnfDIyMWE3NTk2MThiYmJkNjFmYjExNjJhMmM4ZDE2ZDk2OWNiNWEwY2U0MmQ4OWQ5MTRmZjhhNjg4MmVkNWU0MTE"
+                        alt="1" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-light" style="background-color: orange;">
+        <div class="bg-warning">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 p-3">
+                        <h5>GET TO KNOW US</h5>
+                        <a href="#">About Us</a><br>
+                        <a href="#">Careers</a><br>
+                        <a href="#">Pushkart Stories</a><br>
+                        <a href="#">Press Releases</a><br>
+                        <a href="#">Pushkart Science</a><br>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3">
+                        <h5>Connect with Us</h5>
+                        <a href="#">Facebook</a><br>
+                        <a href="#">Twitter</a><br>
+                        <a href="#">Instagram</a><br>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3">
+                        <h5>Make Money with Us</h5>
+                        <a href="#">Sell on Pushkart</a><br>
+                        <a href="#">Advertise Your Products</a><br>
+                        <a href="#">Become a Seller</a><br>
+                        <a href="#">Pushkart International Selling</a><br>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3">
+                        <h5>Let Us Help You</h5>
+                        <a href="#">Covid-19 and Pushkart</a><br>
+                        <a href="#">Your Account</a><br>
+                        <a href="#">Returns Center</a><br>
+                        <a href="#">100% Purchase Protection</a><br>
+                        <a href="#">Pushkart App Download</a><br>
+                        <a href="#">Help</a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center small pt-2 px-3">
+            <h6><span class="border-bottom border-2">Disclaimer</span></h6>
+            <p>Product prices, offers and availability are subject to change from time to time. All prices are inclusive of taxes. Product colours & images are only for illustration and they may not exactly match with the actual product. Product specs are subject to change & may vary from actual product. While every care is taken to avoid inaccuracies in content, these are provided as is, without warranty of any kind.</p>
+        </div><hr>
+        <div class="text-center small pb-3"><span>© 2022 Pushkart. All Rights Reserved.</span></div>
+    </footer>
+</body>
+
+</html>
